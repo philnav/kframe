@@ -12,9 +12,10 @@
     <script src="../components/audioanalyser-waveform.js"></script>
     <script src="../components/ring-on-beat.js"></script>
     <script src="../components/scale-y-color.js"></script>
+    <script src="https://cdn.rawgit.com/AltspaceVR/AltspaceSDK/v2.4.2/dist/altspace.min.js"></script>
   </head>
   <body>
-    <a-scene antialias="true">
+    <a-scene altspace="fullspace: true" antialias="true">
       <a-assets>
         <!-- By Tours. From http://freemusicarchive.org/music/Tours/Enthusiast/Tours_-_Enthusiast. CC Attribution License. -->
         <audio id="song" crossorigin autoplay loop src="Tours-Enthusiast.wav"></audio>
